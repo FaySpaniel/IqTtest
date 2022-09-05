@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    tools:context=".FourthQuestion">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button10"
+        android:layout_width="135dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="68dp"
+        android:background="#3F51B5"
+        android:text="Мудрость"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Четвертый вопрос: что важнее разум или мудрость?"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button9"
+        android:layout_width="135dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="262dp"
+        android:background="#3F51B5"
+        android:text="Разум"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

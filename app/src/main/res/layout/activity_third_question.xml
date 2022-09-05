@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    tools:context=".ThirdQuestion">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button8"
+        android:layout_width="167dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="72dp"
+        android:background="#3F51B5"
+        android:text="Яйцо"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="395dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="Третий вопрос: что появилось раньше: курица или яйцо?"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button7"
+        android:layout_width="167dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="257dp"
+        android:background="#3F51B5"
+        android:text="Курица"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+</androidx.constraintlayout.widget.ConstraintLayout>
